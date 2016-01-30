@@ -1,0 +1,370 @@
+/*-------Global Styles----------*/
+@font-face{
+	font-family: "github-iconfont";
+	src:url(./iconfont/iconfont.eot?#iefix) format("embedded-opentype"),
+		url(./iconfont/iconfont.woff) format("woff"),
+		url(./iconfont/iconfont.ttf) format("truetype"),
+		url(./iconfont/iconfont.svg#octicons) format("svg");
+}
+body{	
+	min-width:980px;
+	font-family: "Arial";
+	margin: 0px;
+	padding: 0px;
+	
+}
+ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#4078c0; 
+}
+.iconfont{
+	font-family: "github-iconfont";
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.auto-height{
+	clear: both;
+	height: auto;
+	overflow: auto;
+}
+.green-btn{
+	color: #fff!important;
+	text-shadow:0px 0px 1px #aaa!important;
+	background: #569e3d!important;
+	background: linear-gradient(#79d858, #569e3d)!important;
+	border:1px solid #4a993e!important;
+}
+.green-btn a{
+	color: #fff!important;
+	text-shadow:0px 0px 1px #aaa!important;
+}
+.pic{
+	margin: 40px 0px;
+	max-width: 980px;
+	border-radius: 5px;
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 10px #aaa;
+}
+
+.input-el{
+	font-size: 16px;
+	text-indent: 1rem;
+	width: 320px;
+	height: 44px;
+	border-radius: 5px;
+	border: none;
+	margin: 5px 0px;
+}
+
+.form-text{
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+/*---------------头部样式开始-----------------*/
+.header{
+	background: #f5f5f5;
+	width: 100%;
+	height: 59px;
+}
+.header-wapper{
+	width: 980px;
+	height: 59px;
+	margin: auto;
+}
+.header-wapper a{
+	color: #000;
+}
+.github-text-icon{
+	padding-top: 5px;
+	margin-right: 10px;
+	line-height: 54px;
+	font-size: 2rem;
+	width: auto;
+	height: auto;
+}
+.search-bar{
+	font-size: 12px;
+	text-indent: 1rem;
+	margin: 0px 10px;
+	width: 360px;
+	height: 26px;
+	border-radius: 2px;
+	border:  1px solid #aaa;
+	margin-top: 16px;
+	box-shadow: 0px 0px 1px #aaa inset;
+}
+.header-link{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 59px;
+	margin: 0px 10px;
+}
+.header-btn{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	width: 75px;
+	height: 34px;
+	margin: 12px 5px;
+	line-height: 34px;
+	background: #eee;
+	background: linear-gradient(#fcfcfc, #eee);
+	border-radius: 3px;
+	border:1px solid #ccc;
+}
+
+
+
+/*-------------主要部分开始----------------*/
+
+.container{
+	width: 100%;
+}
+.inner{
+	width: 980px;
+	margin:auto;
+}
+
+/*------------------分块1-------------------*/
+.container-wapper1{
+
+	width: 100%;
+	height: 470px;
+	background: #202021 url(../images/octicons-bg.png) center repeat;
+}
+.container-wapper1 .inner{
+	padding:80px 0px;
+}
+.container-wapper1 .inner .inner-left{
+	width: 620px;
+	height: 310px;
+}
+.container-wapper1 .inner .inner-left h1{
+	margin: 10px 0px;
+	text-shadow:0px 0px 10px #111;
+	font-size: 70px;
+	font-weight: normal;
+	color: #fff;
+}
+.container-wapper1 .inner .inner-left h2{
+	margin: 0px;
+	text-shadow:0px 0px 10px #111;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 35px;
+	color: #fff;
+}
+
+.container-wapper1 .inner .inner-right{
+	margin-left: 40px;
+	width:320px;
+	height: 310px;
+}
+
+
+/*------------------分块2-------------------*/
+
+.container-wapper2{
+	overflow: hidden;
+	width: 100%;
+	height: 375px;
+	background: linear-gradient(#202d5f, #614381);
+}
+.container-wapper2 .inner{
+	padding-top: 80px;
+}
+.container-wapper2 .inner ul{
+	width: 980px;
+}
+.container-wapper2 .inner ul li:nth-child(1){
+	text-align: center;
+	width: 691px;
+	margin: auto;
+	font-size: 40px;
+}
+.container-wapper2 .inner ul li:nth-child(1) a{
+	color: #fff;
+	text-shadow:0px 0px 10px #000;
+}
+.container-wapper2 .inner ul li:nth-child(2){
+
+	text-align: center;
+	width: 335px;
+	height: 44px;
+	line-height: 44px;
+	margin: 20px auto;
+	font-size: 18px;
+	border-radius: 5px;
+	background: #1d6ac8;
+	background: linear-gradient(#45b3f3, #1d6ac8);
+}
+.container-wapper2 .inner ul li:nth-child(2) a{
+	color: #fff;
+	text-shadow:0px 0px 10px #000;
+}
+
+
+/*------------------分块3-------------------*/
+
+.container-wapper3{
+	width: 100%;
+	padding:80px 0px;
+	height: 660px;
+	border-bottom: 1px solid #ccc;
+}
+.container-wapper3 .inner .inner-title{
+	margin-bottom: 40px;
+}
+.container-wapper3 .inner .inner-title ul li{
+	text-align: center;
+}
+.container-wapper3 .inner .inner-title ul li:nth-child(1){
+	font-size: 40px;
+	margin: 10px 0px;
+}
+.container-wapper3 .inner .inner-title ul li:nth-child(2){
+	font-size: 20px;
+	color: #666;
+}
+
+.container-wapper3 .inner .inner-grid{
+	height: 510px;
+}
+.container-wapper3 .inner .inner-grid .grid-inner{
+	width: 440px;
+	height: 195px;
+	padding: 20px 25px 40px 25px
+}
+.container-wapper3 .inner .inner-grid .grid-inner ul li:nth-child(1){
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 100px;
+	border:1px solid #aaa;
+	font-size: 50px;
+	line-height: 100px;
+	text-align: center;
+	color: #4078c0;
+}
+.container-wapper3 .inner .inner-grid .grid-inner ul li:nth-child(2){
+	text-align: center;
+	font-size: 20px;
+	line-height: 60px;
+}
+.container-wapper3 .inner .inner-grid .grid-inner ul li:nth-child(3){
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+
+/*------------------分块4-------------------*/
+
+.container-wapper4{
+	width: 100%;
+	height: 962px;
+	border-bottom: 1px solid #ccc;
+}
+.container-wapper4 .inner{
+	padding-top: 80px;
+}
+.container-wapper4 .inner ul{
+	width: 980px;
+}
+.container-wapper4 .inner ul li:nth-child(1){
+	text-align: center;
+	width: 980px;
+	margin: auto;
+	font-size: 40px;
+}
+.container-wapper4 .inner ul li:nth-child(1) a{
+	color: #000;
+}
+.container-wapper4 .inner ul li:nth-child(2){
+
+	text-align: center;
+	width: 335px;
+	height: 44px;
+	line-height: 44px;
+	margin: 20px auto;
+	font-size: 18px;
+	border-radius: 5px;
+	background: #1d6ac8;
+	background: linear-gradient(#45b3f3, #1d6ac8);
+}
+.container-wapper4 .inner ul li:nth-child(2) a{
+	color: #fff;
+	text-shadow:0px 0px 10px #000;
+}
+.container-wapper4 .inner ul li:nth-child(3){
+	text-align: center;
+}
+
+.container-wapper4 .inner .mac-download{
+	text-align: center;
+	font-size: 20px;
+	color: #111;
+}
+
+
+
+/*------------------尾部样式-------------------*/
+.footer{
+	position: relative;
+	width: 980px;
+	height: 98px;
+	margin: auto;
+	line-height: 98px;
+}
+
+.footer ul li{
+	font-size: 13px;
+	color: #888;
+	margin: 0px 5px;
+}
+.footer-github-logo{
+	position: absolute;
+	top: 0px;
+	left: 315px;
+	width: 350px;
+}
+.github-logo{
+	font-size: 25px!important;
+	text-align: center;
+}
+
+
+
+/*---------iconfont 样式---------*/
+
+.github-logo:before{
+
+	content:"\f00a";
+}
+
+.github-text-icon:before{
+	content: '\f092';
+}
+.circle-icon1:before{
+	content: "\f076";
+}
+.circle-icon2:before{
+	content: "\f037";
+}
+.circle-icon3:before{
+	content: "\f00c";
+}
+.circle-icon4:before{
+	content: "\26A1";
+}
